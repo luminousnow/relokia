@@ -83,13 +83,10 @@ myForm.addEventListener("submit", function (evt) {
 
     loaderWrapper.classList.add("sending");
 
-    const response = await fetch(
-      "/wp-content/themes/twentytwentyone-child/sendmail.php",
-      {
-        method: "POST",
-        body: formData,
-      }
-    );
+    const response = await fetch("/wp-content/themes/twentytwentyone-child/sendmail.php", {
+      method: "POST",
+      body: formData,
+    });
 
     const { message } = await response.json();
 
