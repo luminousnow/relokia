@@ -3,7 +3,7 @@
 } */
 
 .container {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 
@@ -13,6 +13,12 @@
   font-weight: 500;
   line-height: 1.33;
   letter-spacing: -0.012em;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    min-width: 770px;
+  }
 }
 
 /* --- PROGRESS BAR --- */
