@@ -25,7 +25,7 @@ function multi_step_form( $atts = array(), $content = null ) {
                     <div class="page">
                       <fieldset>
                         <legend>Contact Info</legend>
-                        <div class="form-group row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="form-group row">
                           <label
                             for="inputUsername"
                             class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-form-label">
@@ -40,7 +40,7 @@ function multi_step_form( $atts = array(), $content = null ) {
                             />
                           </div>
                         </div>
-                        <div class="form-group row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="form-group row">
                           <label
                             for="inputEmail"
                             class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-form-label">
@@ -56,7 +56,7 @@ function multi_step_form( $atts = array(), $content = null ) {
                               />
                           </div>
                         </div>
-                        <div class="form-group row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="form-group row">
                           <label
                             for="inputPhone"
                             class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-form-label">
@@ -87,7 +87,7 @@ function multi_step_form( $atts = array(), $content = null ) {
                     <div class="page">
                       <fieldset>
                         <legend>Quantity</legend>
-                        <div class="form-group row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="form-group row">
                           <label
                             for="inputQuantity"
                             class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-form-label">
@@ -124,7 +124,7 @@ function multi_step_form( $atts = array(), $content = null ) {
                     <div class="page">
                       <fieldset>
                         <legend>Price</legend>
-                        <div class="form-group row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="form-group row">
                           <input
                             id="calculate"
                             type="text"
@@ -153,7 +153,7 @@ function multi_step_form( $atts = array(), $content = null ) {
                     <div class="page">
                       <fieldset>
                         <legend>Done</legend>
-                        <div class="form-group row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="form-group row">
                           <div class="done"></div>
                         </div>
                       </fieldset>
